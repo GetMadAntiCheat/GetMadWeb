@@ -6,6 +6,49 @@
   transition: all 0.1s;
 }
 
+#more {
+  display: none;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+ /* Style all font awesome icons */
+ .fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ /* Add a hover effect if you want */
+ .fa:hover {
+   opacity: 0.7;
+ }
+
+ /* Set a specific color for each brand */
+
+ /* Facebook */
+ .fa-youtube {
+   background: #ff0000;
+   color: white;
+ }
+
+ /* Twitter */
+ .fa-globe {
+   background: #ffffff;
+   color: white;
+ }
+
 body {
   margin: 0;
   padding: 0;
